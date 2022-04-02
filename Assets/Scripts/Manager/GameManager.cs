@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<PuzzleObject> puzzleObjectsEasy;
     [SerializeField] private List<PuzzleObject> puzzleObjectsMedium;
     [SerializeField] private List<PuzzleObject> puzzleObjectsHard;
+    [SerializeField] private List<PuzzleObject> puzzleObjectsHardCopy;
+
     private PuzzleObject currentPuzzleObject;
     private Difficulty currentDifficulty = Difficulty.easy;
 
@@ -79,7 +81,16 @@ public class GameManager : MonoBehaviour
                 break;
             case Difficulty.hard:
                 _index = Random.Range(0, puzzleObjectsHard.Count);
+
                 currentPuzzleObject = Instantiate(puzzleObjectsHard[_index]);
+
+                puzzleObjectsHardCopy.Add(puzzleObjectsHard[_index]);
+                puzzleObjectsHard.RemoveAt(_index);
+                if(puzzleObjectsHard.Count == 0)
+                {
+                    puzzleObjectsHard.AddRange(puzzleObjectsHardCopy);
+                    puzzleObjectsHardCopy.Clear();
+                }
                 break;
         }
 

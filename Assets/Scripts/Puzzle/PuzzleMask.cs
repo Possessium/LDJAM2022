@@ -12,7 +12,7 @@ public class PuzzleMask : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(new Vector3(0, 10, 0), Vector3.zero, /*value * */10);
+        transform.position = Vector3.MoveTowards(new Vector3(0, 10, 0), Vector3.zero, value * 10);
         if(currentChild)
             currentChild.transform.localPosition = new Vector3(0, -transform.position.y, 0);
     }

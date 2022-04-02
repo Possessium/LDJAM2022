@@ -45,7 +45,15 @@ public class GameManager : MonoBehaviour
 
     public void LoadNewPuzzle()
     {
-        if(currentPuzzleObject)
+
+        StartCoroutine(DelaySpawn());
+    }
+
+    private IEnumerator DelaySpawn()
+    {
+        yield return new WaitForSeconds(2);
+
+        if (currentPuzzleObject)
         {
             Destroy(currentPuzzleObject.gameObject);
             currentPuzzleObject = null;
@@ -53,12 +61,6 @@ public class GameManager : MonoBehaviour
             currentGameDuration = Mathf.Clamp(currentGameDuration, 0, gameDuration);
         }
 
-
-        StartCoroutine(DelaySpawn());
-    }
-
-    private IEnumerator DelaySpawn()
-    {
         yield return new WaitForEndOfFrame();
 
         int _index = 0;

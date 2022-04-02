@@ -508,13 +508,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleObjectsEasy:
+  - {fileID: 2037750682326521238, guid: 45e7f0b97787eb244957dee97d2e705c, type: 3}
+  - {fileID: 4927923002873246690, guid: d73c646bb2e87ed42b1fd8a42e11cfeb, type: 3}
   - {fileID: 2911263703717617266, guid: 7c97a9a13d486f2448818b0cd7685952, type: 3}
-  - {fileID: 3016964969974147008, guid: 002d91a603aef1d41b504ad1e17175b2, type: 3}
-  - {fileID: 8398268396508504790, guid: 7b45e79bfdc6f8d41b07c609caab2757, type: 3}
-  puzzleObjectsMedium: []
-  puzzleObjectsHard: []
+  - {fileID: 5612895609622296716, guid: 57da04adcca566d4082640f7d4b87a49, type: 3}
+  - {fileID: 7743790362923806026, guid: 1b28f28ca1063af4eb5bb3e4b8f38a5d, type: 3}
+  puzzleObjectsMedium:
+  - {fileID: 9210684906413588605, guid: ee11cfa51d7579d4180e171a02cef777, type: 3}
+  - {fileID: 321174217546271553, guid: 9b7cd44b17dc869409d4bc90de328231, type: 3}
+  - {fileID: 6240094399664691870, guid: 45daf79100a7d644281658e92ffa8a85, type: 3}
+  - {fileID: 1967462624765654356, guid: 8c936f473c69ceb4691fbec7cb8810e3, type: 3}
+  - {fileID: 6820196938532568739, guid: c80d8bd4905006046a2663cb42e31eee, type: 3}
+  puzzleObjectsHard:
+  - {fileID: 739765327930043678, guid: 4df0d3e37cf15d945bcfff510e2ddb22, type: 3}
+  - {fileID: 1952829220427904740, guid: 85a623e767a2599458d104bc61aef9cd, type: 3}
+  - {fileID: 8670796835861517682, guid: 52ecb98c4ba7c1f458693b91dac2353f, type: 3}
+  - {fileID: 1839929766041790834, guid: 0a3f6cf7720576549996b2a94d40aca2, type: 3}
+  - {fileID: 850843566248534651, guid: 86e0997cba5ebb44998135ee70a48cc1, type: 3}
   destinyString: {fileID: 874449340}
-  valueAugmentation: 10
+  valueAugmentation: 1
   gameDuration: 60
   winValueDestinyStringRemove: 60
 --- !u!4 &1862595954
@@ -525,7 +537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862595952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -542,14 +554,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 3739714022016752122, guid: 2566224df950cb940af774c2887c45a5, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3739714022016752122, guid: 2566224df950cb940af774c2887c45a5, type: 3}
-      propertyPath: m_PlaneDistance
-      value: 130.75
-      objectReference: {fileID: 0}
     - target: {fileID: 3739714022016752123, guid: 2566224df950cb940af774c2887c45a5, type: 3}
       propertyPath: m_Pivot.x
       value: 0

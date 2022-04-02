@@ -12,8 +12,8 @@ public class DestinyString : MonoBehaviour
 
     private void Update()
     {
-        mask.rectTransform.offsetMax = new Vector2(mask.rectTransform.offsetMax.x, Mathf.MoveTowards(540, 0, value * 540));
-        mask.rectTransform.offsetMin = new Vector2(mask.rectTransform.offsetMin.x, -Mathf.MoveTowards(-540, 0, value * 540));
+        mask.rectTransform.offsetMax = new Vector2(mask.rectTransform.offsetMax.x, Mathf.MoveTowards(1080, 0, value * 1080));
+        mask.rectTransform.offsetMin = new Vector2(mask.rectTransform.offsetMin.x, -Mathf.MoveTowards(-1080, 0, value * 1080));
 
         badVisu.rectTransform.offsetMin = - mask.rectTransform.offsetMin;
         badVisu.rectTransform.offsetMax = - mask.rectTransform.offsetMax;

@@ -30,7 +30,6 @@ public class PuzzleObject : MonoBehaviour
 
     private void FinishPuzzle()
     {
-        Debug.Log("End");
         GameManager.Instance.LoadNewPuzzle();
     }
 }

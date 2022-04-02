@@ -47,9 +47,9 @@ public class GameManager : MonoBehaviour
         {
             Destroy(currentPuzzleObject.gameObject);
             currentPuzzleObject = null;
+            currentGameDuration -= winValueDestinyStringRemove;
         }
 
-        currentGameDuration -= winValueDestinyStringRemove;
 
         StartCoroutine(DelaySpawn());
     }

@@ -528,7 +528,7 @@ MonoBehaviour:
   destinyString: {fileID: 874449340}
   valueAugmentation: 1
   gameDuration: 60
-  winValueDestinyStringRemove: 60
+  winValueDestinyStringRemove: 5
 --- !u!4 &1862595954
 Transform:
   m_ObjectHideFlags: 0

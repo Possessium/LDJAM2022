@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
             Destroy(currentPuzzleObject.gameObject);
             currentPuzzleObject = null;
             currentGameDuration -= winValueDestinyStringRemove;
+            currentGameDuration = Mathf.Clamp(currentGameDuration, 0, gameDuration);
         }
 
 

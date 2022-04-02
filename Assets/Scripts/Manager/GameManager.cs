@@ -56,7 +56,6 @@ public class GameManager : MonoBehaviour
             case Difficulty.hard:
                 _index = Random.Range(0, puzzleObjectsHard.Count);
                 currentPuzzleObject = Instantiate(puzzleObjectsHard[_index]);
-                puzzleObjectsEasy.RemoveAt(_index);
                 break;
         }
 

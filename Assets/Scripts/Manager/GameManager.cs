@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private PuzzleObject currentPuzzleObject;
     private Difficulty currentDifficulty = Difficulty.easy;
 
-    [SerializeField] private DestinyString destinyString;
+    [SerializeField] private PuzzleMask puzzleMask;
     [SerializeField] private float valueAugmentation = .05f;
     [SerializeField] private float gameDuration = 60f;
 
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         currentGameDuration += Time.deltaTime * valueAugmentation;
         stringValue = Mathf.MoveTowards(0, 1, currentGameDuration / gameDuration);
-        destinyString.SetStringValue(stringValue);
+        puzzleMask.SetStringValue(stringValue);
     }
 
     public void LoadNewPuzzle()
@@ -83,6 +83,7 @@ public class GameManager : MonoBehaviour
                 break;
         }
 
+        puzzleMask.GetAllPieces();
     }
 }
 

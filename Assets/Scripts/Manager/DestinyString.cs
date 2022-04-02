@@ -12,20 +12,15 @@ public class DestinyString : MonoBehaviour
 
     private void Update()
     {
-        mask.rectTransform.offsetMax = new Vector2(mask.rectTransform.offsetMax.x, Mathf.MoveTowards(1080, 0, value * 1080));
-        mask.rectTransform.offsetMin = new Vector2(mask.rectTransform.offsetMin.x, -Mathf.MoveTowards(-1080, 0, value * 1080));
+        mask.rectTransform.offsetMax = new Vector2(mask.rectTransform.offsetMax.x, Mathf.MoveTowards(540, 0, value * 540));
+        mask.rectTransform.offsetMin = new Vector2(mask.rectTransform.offsetMin.x, -Mathf.MoveTowards(-540, 0, value * 540));
 
         badVisu.rectTransform.offsetMin = - mask.rectTransform.offsetMin;
         badVisu.rectTransform.offsetMax = - mask.rectTransform.offsetMax;
     }
 
-    public void SetTop (RectTransform rt, float top)
+    public void SetStringValue(float _value)
     {
-        rt.offsetMax = new Vector2(rt.offsetMax.x, -top);
-    }
-
-    public void SetBottom(RectTransform rt, float bottom)
-    {
-        rt.offsetMin = new Vector2(rt.offsetMin.x, bottom);
+        value = _value;
     }
 }

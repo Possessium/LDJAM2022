@@ -66,6 +66,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DelaySpawn()
     {
+        puzzleMask.StartCoroutine(puzzleMask.LerpStringCoroutine(Mathf.Clamp((currentGameDuration - winValueDestinyStringRemove) / gameDuration, 0, gameDuration), pauseDuration));
+
         isLoadingLevel = true;
         float _timer = 0;
 

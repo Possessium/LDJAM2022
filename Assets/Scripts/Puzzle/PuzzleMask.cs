@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class PuzzleMask : MonoBehaviour
 {
-
     private PuzzleObject currentChild;
     private Vector3 offsetChild;
 
     [SerializeField, Range(0, 1)] float value = 0;
-
 
     private void Update()
     {
@@ -31,5 +29,19 @@ public class PuzzleMask : MonoBehaviour
 
         if (value == 1)
             GameManager.Instance.EndGame();
+    }
+
+    
+    public IEnumerator LerpStringCoroutine(float _value, float _time)
+    {
+        float _startValue = value;
+        float _elapsedTime = 0;
+
+        while(value != _value)
+        {
+            _elapsedTime += Time.deltaTime;
+            SetStringValue(Mathf.MoveTowards(value, _value, Time.deltaTime * (_time / 2)));
+            yield return new WaitForEndOfFrame();
+        }
     }
 }

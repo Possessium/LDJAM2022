@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text highScoreText;
     [SerializeField] private TMP_Text scoreText;
 
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject dedMenu;
+
     private float currentGameDuration = 0;
     private float stringValue;
 
@@ -137,11 +140,48 @@ public class GameManager : MonoBehaviour
     {
         IsPaused = true;
 
+        pauseMenu.SetActive(false);
+        dedMenu.SetActive(true);
+
         int _high = PlayerPrefs.GetInt("highScore");
         if (_high < score)
             PlayerPrefs.SetInt("highScore", score);
 
     }
+
+    public void InputPause(UnityEngine.InputSystem.InputAction.CallbackContext _ctx)
+    {
+        if (dedMenu.activeInHierarchy)
+            return;
+
+        if(_ctx.started)
+        {
+            if (IsPaused)
+                ResumeGame();
+            else
+                PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        pauseMenu.SetActive(true);
+        IsPaused = true;
+        currentPuzzleObject.gameObject.SetActive(false);
+    }
+    public void ResumeGame()
+    {
+        pauseMenu.SetActive(false);
+        IsPaused = false;
+        currentPuzzleObject.gameObject.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitGame() => Application.Quit();
 }
 
 public enum Difficulty

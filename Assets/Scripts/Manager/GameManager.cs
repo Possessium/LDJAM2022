@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private TMP_Text highScoreText;
     [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TMP_Text scoreTextDed;
 
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject dedMenu;
@@ -148,6 +149,8 @@ public class GameManager : MonoBehaviour
         int _high = PlayerPrefs.GetInt("highScore");
         if (_high < score)
             PlayerPrefs.SetInt("highScore", score);
+
+        scoreTextDed.text = score.ToString();
 
     }
 

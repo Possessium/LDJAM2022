@@ -21,6 +21,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         deb = GrabbedPiece;
+
+        if(GameManager.Instance.IsPaused && GrabbedPiece)
+        {
+            GrabbedPiece.SetGrabbed(false);
+            GrabbedPiece = null;
+        }
     }
 
     private void OnDrawGizmos()
@@ -32,6 +38,9 @@ public class Player : MonoBehaviour
     public void GrabPiece(InputAction.CallbackContext _ctx)
     {
         if (!_ctx.started)
+            return;
+
+        if (GameManager.Instance.IsPaused)
             return;
 
         RaycastHit2D _hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())), Vector3.forward, Mathf.Infinity, pieceLayer);

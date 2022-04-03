@@ -28,5 +28,8 @@ public class PuzzleMask : MonoBehaviour
     public void SetStringValue(float _value)
     {
         value = _value;
+
+        if (value == 1)
+            GameManager.Instance.EndGame();
     }
 }

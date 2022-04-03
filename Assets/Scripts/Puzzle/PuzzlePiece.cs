@@ -54,5 +54,20 @@ public class PuzzlePiece : MonoBehaviour
 
         if (!isGrabbed)
             ResetPosition();
+
+        else
+        {
+            switch (PuzzleObject.Instance.CurrentMaterial)
+            {
+                case PieceMaterial.ceramic:
+                    AudioController.Instance.Play("ceramicPrise");
+                    break;
+                case PieceMaterial.metal:
+                    AudioController.Instance.Play("metalPrise");
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

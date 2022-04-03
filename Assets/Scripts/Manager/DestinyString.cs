@@ -17,6 +17,7 @@ public class DestinyString : MonoBehaviour
 
         badVisu.rectTransform.offsetMin = - mask.rectTransform.offsetMin;
         badVisu.rectTransform.offsetMax = - mask.rectTransform.offsetMax;
+
     }
 
     public void SetStringValue(float _value)

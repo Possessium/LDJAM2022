@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,13 +18,20 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PuzzleMask puzzleMask;
     [SerializeField] private float valueAugmentation = .05f;
     [SerializeField] private float gameDuration = 60f;
+    [SerializeField] private float pauseDuration = 1f;
 
     [SerializeField] private float winValueDestinyStringRemove = 15;
+
+    [SerializeField] private TMP_Text highScoreText;
+    [SerializeField] private TMP_Text scoreText;
 
     private float currentGameDuration = 0;
     private float stringValue;
 
-
+    public bool IsPaused { get; private set; } = false;
+    public bool isLoadingLevel = false;
+    private int score;
+    private int highScore;
 
     private void Awake()
     {
@@ -33,11 +40,17 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        LoadNewPuzzle();
+        SpawnPuzzle();
+        highScore = PlayerPrefs.GetInt("highScore");
+        highScoreText.text = highScore.ToString();
+        scoreText.text = score.ToString();
     }
 
     private void Update()
     {
+        if (IsPaused || isLoadingLevel)
+            return;
+
         currentGameDuration += Time.deltaTime * valueAugmentation;
         stringValue = Mathf.MoveTowards(0, 1, currentGameDuration / gameDuration);
         puzzleMask.SetStringValue(stringValue);
@@ -45,16 +58,30 @@ public class GameManager : MonoBehaviour
 
     public void LoadNewPuzzle()
     {
-
         StartCoroutine(DelaySpawn());
     }
 
     private IEnumerator DelaySpawn()
     {
-        yield return new WaitForSeconds(2);
+        isLoadingLevel = true;
+        float _timer = 0;
+
+        while (_timer < pauseDuration)
+        {
+            yield return new WaitForEndOfFrame();
+
+            if(isLoadingLevel && !IsPaused)
+                _timer += Time.deltaTime;
+        }
 
         if (currentPuzzleObject)
         {
+            score++;
+            scoreText.text = score.ToString();
+
+            if(score > highScore)
+                highScoreText.text = score.ToString();
+
             Destroy(currentPuzzleObject.gameObject);
             currentPuzzleObject = null;
             currentGameDuration -= winValueDestinyStringRemove;
@@ -63,6 +90,11 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
 
+        SpawnPuzzle();
+    }
+
+    public void SpawnPuzzle()
+    {
         int _index = 0;
 
         switch (currentDifficulty)
@@ -88,7 +120,7 @@ public class GameManager : MonoBehaviour
 
                 puzzleObjectsHardCopy.Add(puzzleObjectsHard[_index]);
                 puzzleObjectsHard.RemoveAt(_index);
-                if(puzzleObjectsHard.Count == 0)
+                if (puzzleObjectsHard.Count == 0)
                 {
                     puzzleObjectsHard.AddRange(puzzleObjectsHardCopy);
                     puzzleObjectsHardCopy.Clear();
@@ -96,7 +128,19 @@ public class GameManager : MonoBehaviour
                 break;
         }
 
+        isLoadingLevel = false;
+
         puzzleMask.GetAllPieces();
+    }
+
+    public void EndGame()
+    {
+        IsPaused = true;
+
+        int _high = PlayerPrefs.GetInt("highScore");
+        if (_high < score)
+            PlayerPrefs.SetInt("highScore", score);
+
     }
 }
 

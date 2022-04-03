@@ -7,6 +7,9 @@ public class PuzzleObject : MonoBehaviour
 {
     public static PuzzleObject Instance;
 
+    [SerializeField] private PieceMaterial currentMaterial;
+    public PieceMaterial CurrentMaterial { get { return currentMaterial; } }
+
     List<PuzzlePiecePosition> piecePositions;
 
     private void Awake()
@@ -22,7 +25,18 @@ public class PuzzleObject : MonoBehaviour
     public void RemovePiecePosition(PuzzlePiecePosition _piece)
     {
         if(piecePositions.Contains(_piece))
+        {
+            switch (currentMaterial)
+            {
+                case PieceMaterial.ceramic:
+                    AudioController.Instance.Play("ceramicPose");
+                    break;
+                case PieceMaterial.metal:
+                    AudioController.Instance.Play("metalPose");
+                    break;
+            }
             piecePositions.Remove(_piece);
+        }
 
         if(piecePositions.Count == 0)
             FinishPuzzle();
@@ -32,4 +46,10 @@ public class PuzzleObject : MonoBehaviour
     {
         GameManager.Instance.LoadNewPuzzle();
     }
+}
+
+public enum PieceMaterial
+{
+    ceramic,
+    metal
 }

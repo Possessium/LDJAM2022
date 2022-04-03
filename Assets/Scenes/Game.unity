@@ -242,7 +242,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a75bcf6fc86862646934c268d6d5de3a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.088
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2882,7 +2882,7 @@ MonoBehaviour:
   - {fileID: 850843566248534651, guid: 86e0997cba5ebb44998135ee70a48cc1, type: 3}
   puzzleObjectsHardCopy: []
   puzzleMask: {fileID: 1780618561}
-  valueAugmentation: 1
+  valueAugmentation: 0.8
   gameDuration: 60
   pauseDuration: 0.5
   winValueDestinyStringRemove: 5
@@ -3012,25 +3012,25 @@ MonoBehaviour:
   sounds:
   - name: ceramicPose
     clip: {fileID: 8300000, guid: b8d688ceb663ea34da1beece95e0138d, type: 3}
-    Volume: 0.5
+    Volume: 0.06
     Pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: ceramicPrise
     clip: {fileID: 8300000, guid: ed7cb9930be29f14fa98b32dd3340557, type: 3}
-    Volume: 0.5
+    Volume: 0.09
     Pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: metalPose
     clip: {fileID: 8300000, guid: e67e0c7ccfc181a4f806506bd0b20ddb, type: 3}
-    Volume: 0.5
+    Volume: 0.01
     Pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: metalPrise
     clip: {fileID: 8300000, guid: 7dee01492e90af343bc07110a0875abe, type: 3}
-    Volume: 0.5
+    Volume: 0.355
     Pitch: 1
     loop: 0
     source: {fileID: 0}

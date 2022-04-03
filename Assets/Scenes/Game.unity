@@ -2680,7 +2680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780618558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 10, z: 6.75}
+  m_LocalPosition: {x: 0.29, y: 0, z: 6.75}
   m_LocalScale: {x: 0.94, y: 0.94, z: 0.94}
   m_Children:
   - {fileID: 2019243497}
@@ -2752,12 +2752,14 @@ MonoBehaviour:
   valueAugmentation: 0.7
   gameDuration: 60
   pauseDuration: 0.5
-  winValueDestinyStringRemove: 5
+  winValueDestinyStringRemove: 3.5
   highScoreText: {fileID: 284639333}
   scoreText: {fileID: 897618133}
   scoreTextDed: {fileID: 742099187}
   pauseMenu: {fileID: 998477067}
   dedMenu: {fileID: 1274444193}
+  cursorOpen: {fileID: 2800000, guid: cad1b84903c279d4ab5b0735195d4ddf, type: 3}
+  cursorClose: {fileID: 2800000, guid: a61d708321e917c4d9dca470af14cdaf, type: 3}
   isLoadingLevel: 0
 --- !u!4 &1862595954
 Transform:

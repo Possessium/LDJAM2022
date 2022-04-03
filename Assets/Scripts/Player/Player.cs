@@ -37,33 +37,35 @@ public class Player : MonoBehaviour
 
     public void GrabPiece(InputAction.CallbackContext _ctx)
     {
-        if (!_ctx.started)
-            return;
-
-        if (GameManager.Instance.IsPaused)
-            return;
-
-        RaycastHit2D _hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())), Vector3.forward, Mathf.Infinity, pieceLayer);
-
-        if (GrabbedPiece)
+        if (_ctx.started || _ctx.canceled && GrabbedPiece)
         {
-            if (_hit && _hit.transform.GetComponent<PuzzlePiecePosition>())
+            if (GameManager.Instance.IsPaused)
+                return;
+
+            RaycastHit2D _hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())), Vector3.forward, Mathf.Infinity, pieceLayer);
+
+            if (GrabbedPiece)
             {
-                _hit.transform.GetComponent<PuzzlePiecePosition>().PlacePiece(GrabbedPiece);
+                if (_hit && _hit.transform.GetComponent<PuzzlePiecePosition>())
+                {
+                    _hit.transform.GetComponent<PuzzlePiecePosition>().PlacePiece(GrabbedPiece);
+                }
+
+                if (GrabbedPiece)
+                    GrabbedPiece.SetGrabbed(false);
+
+                GrabbedPiece = null;
+
+                return;
             }
 
-            if(GrabbedPiece)
-                GrabbedPiece.SetGrabbed(false);
-
-            GrabbedPiece = null;
-
-            return;
+            else if (_hit && _hit.transform.GetComponent<PuzzlePiece>())
+            {
+                GrabbedPiece = _hit.transform.GetComponent<PuzzlePiece>();
+                GrabbedPiece.SetGrabbed(true);
+            }
         }
 
-        else if (_hit && _hit.transform.GetComponent<PuzzlePiece>())
-        {
-            GrabbedPiece = _hit.transform.GetComponent<PuzzlePiece>();
-            GrabbedPiece.SetGrabbed(true);
-        }
+        
     }
 }

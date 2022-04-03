@@ -53,10 +53,14 @@ public class PuzzlePiece : MonoBehaviour
         polygonCollider.enabled = !_state;
 
         if (!isGrabbed)
+        {
+            GameManager.Instance.ChangeCursor(false);
             ResetPosition();
+        }
 
         else
         {
+            GameManager.Instance.ChangeCursor(true);
             switch (PuzzleObject.Instance.CurrentMaterial)
             {
                 case PieceMaterial.ceramic:

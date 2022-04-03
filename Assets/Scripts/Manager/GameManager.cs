@@ -29,6 +29,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject dedMenu;
 
+    [SerializeField] private Texture2D cursorOpen;
+    [SerializeField] private Texture2D cursorClose;
+
+
     private float currentGameDuration = 0;
     private float stringValue;
 
@@ -58,6 +62,14 @@ public class GameManager : MonoBehaviour
         currentGameDuration += Time.deltaTime * valueAugmentation;
         stringValue = Mathf.MoveTowards(0, 1, currentGameDuration / gameDuration);
         puzzleMask.SetStringValue(stringValue);
+    }
+
+    public void ChangeCursor(bool _grabState)
+    {
+        if (_grabState)
+            Cursor.SetCursor(cursorClose, Vector2.zero, CursorMode.Auto);
+        else
+            Cursor.SetCursor(cursorOpen, Vector2.zero, CursorMode.Auto);
     }
 
     public void LoadNewPuzzle()

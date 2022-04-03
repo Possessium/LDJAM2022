@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
 
     public PuzzlePiece GrabbedPiece { get; private set; }
     public PuzzlePiece deb;
+    public Bounds PlayerLimits;
 
     [SerializeField] private LayerMask pieceLayer;
 
@@ -20,6 +21,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         deb = GrabbedPiece;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(PlayerLimits.center, PlayerLimits.extents);
     }
 
     public void GrabPiece(InputAction.CallbackContext _ctx)

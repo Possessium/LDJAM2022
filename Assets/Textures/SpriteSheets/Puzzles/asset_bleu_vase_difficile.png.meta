@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 4e3389063c18eb34d8d677d7398d6e86
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4553320891813717496
+    second: asset_bleu_vase_difficile_0
+  - first:
+      213: 4753632439654008838
+    second: asset_bleu_vase_difficile_1
+  - first:
+      213: 3487565525022335747
+    second: asset_bleu_vase_difficile_2
+  - first:
+      213: 8701094924678011434
+    second: asset_bleu_vase_difficile_3
+  - first:
+      213: -7866921673050012738
+    second: asset_bleu_vase_difficile_4
+  - first:
+      213: 6389874509037268153
+    second: asset_bleu_vase_difficile_5
+  - first:
+      213: 8344159086999212075
+    second: asset_bleu_vase_difficile_6
+  - first:
+      213: 8262232762023173999
+    second: asset_bleu_vase_difficile_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +113,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 160
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ebe00a35a03f30800000000000000
+      internalID: 4553320891813717496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 440
+        width: 167
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c95e948b48f140800000000000000
+      internalID: 4753632439654008838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 436
+        width: 98
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303ead9fd52566030800000000000000
+      internalID: 3487565525022335747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 299
+        width: 141
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a136ecbbf70c870800000000000000
+      internalID: 8701094924678011434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 263
+        width: 109
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3480a4b6413d290800000000000000
+      internalID: -7866921673050012738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 270
+        width: 199
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc6d7ec2056da850800000000000000
+      internalID: 6389874509037268153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 145
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b209fe9fa786cc370800000000000000
+      internalID: 8344159086999212075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_difficile_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 93
+        width: 133
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f5cfffbe859a270800000000000000
+      internalID: 8262232762023173999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

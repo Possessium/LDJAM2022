@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 6da166b1dd3de7c44b5d1649fef966bd
+guid: e5bee504d33a37a4c8f093674b348804
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896310664997632490
-    second: asset_bleu_vase_moyen_0
+      213: 3049132273735785660
+    second: asset_bleu_buste_difficile 1_0
   - first:
-      213: -3610529304064564614
-    second: asset_bleu_vase_moyen_1
+      213: 2994958818120612602
+    second: asset_bleu_buste_difficile 1_1
   - first:
-      213: -6579357728511832690
-    second: asset_bleu_vase_moyen_2
+      213: 5164540331138417860
+    second: asset_bleu_buste_difficile 1_2
   - first:
-      213: 3762017852568926174
-    second: asset_bleu_vase_moyen_3
+      213: 7603458494484810464
+    second: asset_bleu_buste_difficile 1_3
   - first:
-      213: -5573973545506838929
-    second: asset_bleu_vase_moyen_4
+      213: -7663960767438407501
+    second: asset_bleu_buste_difficile 1_4
   - first:
-      213: -4043400532424229673
-    second: asset_bleu_vase_moyen_5
+      213: -1603812514293346940
+    second: asset_bleu_buste_difficile 1_5
+  - first:
+      213: 6447644194586943771
+    second: asset_bleu_buste_difficile 1_6
+  - first:
+      213: 4262426739005798301
+    second: asset_bleu_buste_difficile 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,118 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 518
-        width: 123
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae9f329ab9033f340800000000000000
-      internalID: 4896310664997632490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_1
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 518
-        width: 150
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a72e7143ab2d4edc0800000000000000
-      internalID: -3610529304064564614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 270
-        width: 206
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8dc4dd310d61b4a0800000000000000
-      internalID: -6579357728511832690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_3
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 251
-        width: 182
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed77c0d0e4f553430800000000000000
-      internalID: 3762017852568926174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_4
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 176
-        width: 177
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f66e3a0b79445a2b0800000000000000
-      internalID: -5573973545506838929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_5
+      name: asset_bleu_buste_difficile 1_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 97
-        width: 118
-        height: 158
+        y: 588
+        width: 187
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +129,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc7a3c73a4f2e7c0800000000000000
-      internalID: -4043400532424229673
+      spriteID: cbc5331e5a1b05a20800000000000000
+      internalID: 3049132273735785660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 570
+        width: 218
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afab0075d2b309920800000000000000
+      internalID: 2994958818120612602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 388
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c40fa971122ca740800000000000000
+      internalID: 5164540331138417860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 350
+        width: 145
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea81344739e48960800000000000000
+      internalID: 7603458494484810464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 301
+        width: 179
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8bd44994424a590800000000000000
+      internalID: -7663960767438407501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 107
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d083ff30d1eb9e0800000000000000
+      internalID: -1603812514293346940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 151
+        width: 159
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11e670eb32aa7950800000000000000
+      internalID: 6447644194586943771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_buste_difficile 1_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 38
+        width: 314
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97319b298e272b30800000000000000
+      internalID: 4262426739005798301
       vertices: []
       indices: 
       edges: []

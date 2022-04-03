@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 6da166b1dd3de7c44b5d1649fef966bd
+guid: d857601eb5239244a9fc21c228000fc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896310664997632490
-    second: asset_bleu_vase_moyen_0
+      213: -3989820212214196483
+    second: asset_bleu_assiette_difficile_0
   - first:
-      213: -3610529304064564614
-    second: asset_bleu_vase_moyen_1
+      213: 4481988934818942233
+    second: asset_bleu_assiette_difficile_1
   - first:
-      213: -6579357728511832690
-    second: asset_bleu_vase_moyen_2
+      213: 7807441828411170783
+    second: asset_bleu_assiette_difficile_2
   - first:
-      213: 3762017852568926174
-    second: asset_bleu_vase_moyen_3
+      213: -6404313278192873007
+    second: asset_bleu_assiette_difficile_3
   - first:
-      213: -5573973545506838929
-    second: asset_bleu_vase_moyen_4
+      213: 3085494375498591736
+    second: asset_bleu_assiette_difficile_4
   - first:
-      213: -4043400532424229673
-    second: asset_bleu_vase_moyen_5
+      213: 8656956510576160208
+    second: asset_bleu_assiette_difficile_5
+  - first:
+      213: 5099750748780857805
+    second: asset_bleu_assiette_difficile_6
+  - first:
+      213: 1661238942092869
+    second: asset_bleu_assiette_difficile_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_0
+      name: asset_bleu_assiette_difficile_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 518
-        width: 123
-        height: 145
+        x: 32
+        y: 587
+        width: 88
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae9f329ab9033f340800000000000000
-      internalID: 4896310664997632490
+      spriteID: df69c4de7af41a8c0800000000000000
+      internalID: -3989820212214196483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_1
+      name: asset_bleu_assiette_difficile_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 518
-        width: 150
-        height: 113
+        x: 132
+        y: 566
+        width: 145
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a72e7143ab2d4edc0800000000000000
-      internalID: -3610529304064564614
+      spriteID: 91d4d1b8039333e30800000000000000
+      internalID: 4481988934818942233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_2
+      name: asset_bleu_assiette_difficile_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 270
-        width: 206
-        height: 248
+        x: 298
+        y: 661
+        width: 200
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8dc4dd310d61b4a0800000000000000
-      internalID: -6579357728511832690
+      spriteID: fdf59f23afa995c60800000000000000
+      internalID: 7807441828411170783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_3
+      name: asset_bleu_assiette_difficile_3
       rect:
         serializedVersion: 2
-        x: 239
-        y: 251
-        width: 182
-        height: 262
+        x: 26
+        y: 306
+        width: 179
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed77c0d0e4f553430800000000000000
-      internalID: 3762017852568926174
+      spriteID: 1d11ff6410f4f17a0800000000000000
+      internalID: -6404313278192873007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_4
+      name: asset_bleu_assiette_difficile_4
       rect:
         serializedVersion: 2
-        x: 465
-        y: 176
-        width: 177
-        height: 244
+        x: 308
+        y: 471
+        width: 144
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66e3a0b79445a2b0800000000000000
-      internalID: -5573973545506838929
+      spriteID: 8fd2f0079c0e1da20800000000000000
+      internalID: 3085494375498591736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_5
+      name: asset_bleu_assiette_difficile_5
       rect:
         serializedVersion: 2
-        x: 5
-        y: 97
-        width: 118
-        height: 158
+        x: 515
+        y: 334
+        width: 151
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +234,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc7a3c73a4f2e7c0800000000000000
-      internalID: -4043400532424229673
+      spriteID: 0dda5e07410b32870800000000000000
+      internalID: 8656956510576160208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_assiette_difficile_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 153
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc98d105944f5c640800000000000000
+      internalID: 5099750748780857805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_assiette_difficile_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 268
+        width: 191
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ec70553e6e50000800000000000000
+      internalID: 1661238942092869
       vertices: []
       indices: 
       edges: []
@@ -237,7 +285,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e9f70ab0224927f41bbbeecbeabac57d
     internalID: 0
     vertices: []
     indices: 

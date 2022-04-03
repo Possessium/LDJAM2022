@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 6da166b1dd3de7c44b5d1649fef966bd
+guid: 288601769a211614f9b30d8d5723784f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896310664997632490
-    second: asset_bleu_vase_moyen_0
+      213: 5214491254332823143
+    second: asset_bleu_bouclier_facile_0
   - first:
-      213: -3610529304064564614
-    second: asset_bleu_vase_moyen_1
+      213: -4704150176068824016
+    second: asset_bleu_bouclier_facile_1
   - first:
-      213: -6579357728511832690
-    second: asset_bleu_vase_moyen_2
+      213: 8916432906178826869
+    second: asset_bleu_bouclier_facile_2
   - first:
-      213: 3762017852568926174
-    second: asset_bleu_vase_moyen_3
-  - first:
-      213: -5573973545506838929
-    second: asset_bleu_vase_moyen_4
-  - first:
-      213: -4043400532424229673
-    second: asset_bleu_vase_moyen_5
+      213: 3279598115572788757
+    second: asset_bleu_bouclier_facile_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_0
+      name: asset_bleu_bouclier_facile_0
       rect:
         serializedVersion: 2
         x: 0
         y: 518
-        width: 123
-        height: 145
+        width: 237
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae9f329ab9033f340800000000000000
-      internalID: 4896310664997632490
+      spriteID: 76693e21b289d5840800000000000000
+      internalID: 5214491254332823143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_1
+      name: asset_bleu_bouclier_facile_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 518
-        width: 150
-        height: 113
+        x: 237
+        y: 469
+        width: 208
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a72e7143ab2d4edc0800000000000000
-      internalID: -3610529304064564614
+      spriteID: 0349359a65087beb0800000000000000
+      internalID: -4704150176068824016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_2
+      name: asset_bleu_bouclier_facile_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 270
-        width: 206
-        height: 248
+        x: 0
+        y: 147
+        width: 296
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8dc4dd310d61b4a0800000000000000
-      internalID: -6579357728511832690
+      spriteID: 5729464ac788dbb70800000000000000
+      internalID: 8916432906178826869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_3
+      name: asset_bleu_bouclier_facile_3
       rect:
         serializedVersion: 2
-        x: 239
-        y: 251
-        width: 182
-        height: 262
+        x: 317
+        y: 192
+        width: 310
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,50 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed77c0d0e4f553430800000000000000
-      internalID: 3762017852568926174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_4
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 176
-        width: 177
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f66e3a0b79445a2b0800000000000000
-      internalID: -5573973545506838929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 97
-        width: 118
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dc7a3c73a4f2e7c0800000000000000
-      internalID: -4043400532424229673
+      spriteID: 51ea1cc2c19738d20800000000000000
+      internalID: 3279598115572788757
       vertices: []
       indices: 
       edges: []
@@ -237,7 +189,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9232bf19d89f3b34f8d4d8a8621e9949
     internalID: 0
     vertices: []
     indices: 

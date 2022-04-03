@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 6da166b1dd3de7c44b5d1649fef966bd
+guid: 7d4e4253dda45b74b97f37331e87f7ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896310664997632490
-    second: asset_bleu_vase_moyen_0
+      213: 370612054286168477
+    second: asset_bleu_bouclier_moyen_0
   - first:
-      213: -3610529304064564614
-    second: asset_bleu_vase_moyen_1
+      213: -4224948116030181861
+    second: asset_bleu_bouclier_moyen_1
   - first:
-      213: -6579357728511832690
-    second: asset_bleu_vase_moyen_2
+      213: 5416686660779763986
+    second: asset_bleu_bouclier_moyen_2
   - first:
-      213: 3762017852568926174
-    second: asset_bleu_vase_moyen_3
+      213: 4593779626819675008
+    second: asset_bleu_bouclier_moyen_3
   - first:
-      213: -5573973545506838929
-    second: asset_bleu_vase_moyen_4
+      213: -6158572532014130874
+    second: asset_bleu_bouclier_moyen_4
   - first:
-      213: -4043400532424229673
-    second: asset_bleu_vase_moyen_5
+      213: 290426031644108530
+    second: asset_bleu_bouclier_moyen_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,13 +109,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_0
+      name: asset_bleu_bouclier_moyen_0
       rect:
         serializedVersion: 2
         x: 0
+        y: 479
+        width: 258
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91743523bda42500800000000000000
+      internalID: 370612054286168477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_bouclier_moyen_1
+      rect:
+        serializedVersion: 2
+        x: 258
         y: 518
-        width: 123
-        height: 145
+        width: 180
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae9f329ab9033f340800000000000000
-      internalID: 4896310664997632490
+      spriteID: b1ea09db218fd55c0800000000000000
+      internalID: -4224948116030181861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_1
+      name: asset_bleu_bouclier_moyen_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 518
-        width: 150
-        height: 113
+        x: 461
+        y: 382
+        width: 273
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a72e7143ab2d4edc0800000000000000
-      internalID: -3610529304064564614
+      spriteID: 219ef53b1dfeb2b40800000000000000
+      internalID: 5416686660779763986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_2
+      name: asset_bleu_bouclier_moyen_3
       rect:
         serializedVersion: 2
-        x: 20
-        y: 270
-        width: 206
-        height: 248
+        x: 18
+        y: 245
+        width: 199
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8dc4dd310d61b4a0800000000000000
-      internalID: -6579357728511832690
+      spriteID: 08363015b3260cf30800000000000000
+      internalID: 4593779626819675008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_3
+      name: asset_bleu_bouclier_moyen_4
       rect:
         serializedVersion: 2
-        x: 239
-        y: 251
-        width: 182
-        height: 262
+        x: 258
+        y: 167
+        width: 132
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed77c0d0e4f553430800000000000000
-      internalID: 3762017852568926174
+      spriteID: 649d1d169ea588aa0800000000000000
+      internalID: -6158572532014130874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_4
+      name: asset_bleu_bouclier_moyen_5
       rect:
         serializedVersion: 2
-        x: 465
-        y: 176
-        width: 177
-        height: 244
+        x: 461
+        y: 186
+        width: 239
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,29 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66e3a0b79445a2b0800000000000000
-      internalID: -5573973545506838929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 97
-        width: 118
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dc7a3c73a4f2e7c0800000000000000
-      internalID: -4043400532424229673
+      spriteID: 2f66ca1efecc70400800000000000000
+      internalID: 290426031644108530
       vertices: []
       indices: 
       edges: []
@@ -237,7 +237,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: eb6e1bf2ec042d04d8efd92f99971184
     internalID: 0
     vertices: []
     indices: 

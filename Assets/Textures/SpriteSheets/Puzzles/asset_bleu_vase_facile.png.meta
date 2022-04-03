@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: daf4bdd6eb7ac1844a7708dfa0dfe9dc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4775578548649330758
+    second: asset_bleu_vase_facile_0
+  - first:
+      213: 1300627733158775044
+    second: asset_bleu_vase_facile_1
+  - first:
+      213: 2643141592590934686
+    second: asset_bleu_vase_facile_2
+  - first:
+      213: 3920543150290199104
+    second: asset_bleu_vase_facile_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: asset_bleu_vase_facile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 166
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648083d4363464240800000000000000
+      internalID: 4775578548649330758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_facile_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 361
+        width: 165
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40943f34802cc0210800000000000000
+      internalID: 1300627733158775044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_facile_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 149
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92617546435ea420800000000000000
+      internalID: 2643141592590934686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_vase_facile_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 122
+        width: 158
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04263a72931986630800000000000000
+      internalID: 3920543150290199104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

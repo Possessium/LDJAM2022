@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 6da166b1dd3de7c44b5d1649fef966bd
+guid: 26b5e6ab933ad304f9202c989f416fbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896310664997632490
-    second: asset_bleu_vase_moyen_0
+      213: -2404064272054124228
+    second: asset_bleu_bouclier_difficile_0
   - first:
-      213: -3610529304064564614
-    second: asset_bleu_vase_moyen_1
+      213: 2190544135092918573
+    second: asset_bleu_bouclier_difficile_1
   - first:
-      213: -6579357728511832690
-    second: asset_bleu_vase_moyen_2
+      213: 2894470731012689538
+    second: asset_bleu_bouclier_difficile_2
   - first:
-      213: 3762017852568926174
-    second: asset_bleu_vase_moyen_3
+      213: -5634352316823511912
+    second: asset_bleu_bouclier_difficile_3
   - first:
-      213: -5573973545506838929
-    second: asset_bleu_vase_moyen_4
+      213: 2565216278768454367
+    second: asset_bleu_bouclier_difficile_4
   - first:
-      213: -4043400532424229673
-    second: asset_bleu_vase_moyen_5
+      213: 6921623604672702934
+    second: asset_bleu_bouclier_difficile_5
+  - first:
+      213: -7905378849305298323
+    second: asset_bleu_bouclier_difficile_6
+  - first:
+      213: -4350901321309317349
+    second: asset_bleu_bouclier_difficile_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,55 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_0
+      name: asset_bleu_bouclier_difficile_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 518
-        width: 123
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae9f329ab9033f340800000000000000
-      internalID: 4896310664997632490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_1
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 518
-        width: 150
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a72e7143ab2d4edc0800000000000000
-      internalID: -3610529304064564614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asset_bleu_vase_moyen_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 270
+        x: 9
+        y: 513
         width: 206
-        height: 248
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8dc4dd310d61b4a0800000000000000
-      internalID: -6579357728511832690
+      spriteID: c318107284c03aed0800000000000000
+      internalID: -2404064272054124228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_3
+      name: asset_bleu_bouclier_difficile_1
       rect:
         serializedVersion: 2
-        x: 239
-        y: 251
-        width: 182
-        height: 262
+        x: 215
+        y: 552
+        width: 207
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed77c0d0e4f553430800000000000000
-      internalID: 3762017852568926174
+      spriteID: d29570de840666e10800000000000000
+      internalID: 2190544135092918573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_4
+      name: asset_bleu_bouclier_difficile_2
       rect:
         serializedVersion: 2
-        x: 465
-        y: 176
-        width: 177
-        height: 244
+        x: 431
+        y: 404
+        width: 196
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66e3a0b79445a2b0800000000000000
-      internalID: -5573973545506838929
+      spriteID: 28ec6c65bc93b2820800000000000000
+      internalID: 2894470731012689538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset_bleu_vase_moyen_5
+      name: asset_bleu_bouclier_difficile_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 97
-        width: 118
-        height: 158
+        x: 9
+        y: 345
+        width: 175
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +192,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc7a3c73a4f2e7c0800000000000000
-      internalID: -4043400532424229673
+      spriteID: 89cd5508b62cec1b0800000000000000
+      internalID: -5634352316823511912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_bouclier_difficile_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 223
+        width: 138
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0b0c4d9a799320800000000000000
+      internalID: 2565216278768454367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_bouclier_difficile_5
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 148
+        width: 179
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9a9710ffb8e0060800000000000000
+      internalID: 6921623604672702934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_bouclier_difficile_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 139
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a754032d37a4290800000000000000
+      internalID: -7905378849305298323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_bouclier_difficile_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 15
+        width: 166
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b179492ec4e7e93c0800000000000000
+      internalID: -4350901321309317349
       vertices: []
       indices: 
       edges: []
@@ -237,7 +285,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: a81694252039c3b46b9c80a9bb0a0b86
     internalID: 0
     vertices: []
     indices: 

@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: f896a9a1babce4246a73a63b9dd4ff02
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6417477923716081887
+    second: asset_bleu_casque_moyen_0
+  - first:
+      213: 5157442893654552381
+    second: asset_bleu_casque_moyen_1
+  - first:
+      213: -8708881049344920560
+    second: asset_bleu_casque_moyen_2
+  - first:
+      213: 776469412930948784
+    second: asset_bleu_casque_moyen_3
+  - first:
+      213: -3582707262152569225
+    second: asset_bleu_casque_moyen_4
+  - first:
+      213: -1838564776596553667
+    second: asset_bleu_casque_moyen_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +107,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 562
+        width: 176
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ddf264d980f6a0800000000000000
+      internalID: -6417477923716081887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 483
+        width: 193
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f64a98cfae29740800000000000000
+      internalID: 5157442893654552381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 318
+        width: 135
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0143aa6c3d6d32780800000000000000
+      internalID: -8708881049344920560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 292
+        width: 224
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be84b031d296ca00800000000000000
+      internalID: 776469412930948784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 288
+        width: 127
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e0f212abaa74ec0800000000000000
+      internalID: -3582707262152569225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asset_bleu_casque_moyen_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 199
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ca6aa31b1c76e0800000000000000
+      internalID: -1838564776596553667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

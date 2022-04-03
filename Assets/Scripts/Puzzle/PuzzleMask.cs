@@ -13,9 +13,9 @@ public class PuzzleMask : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(new Vector3(.29f, 10, 7), new Vector3(.29f, .48f, 7), value * 10);
+        transform.position = Vector3.MoveTowards(new Vector3(.05f, 10, 7), new Vector3(.05f, .15f, 7), value * 10);
         if(currentChild)
-            currentChild.transform.localPosition = new Vector3(0, -transform.position.y, 0) + offsetChild;
+            currentChild.transform.localPosition = new Vector3(0, -transform.position.y / .94f, 0) + offsetChild;
     }
 
     public void GetAllPieces()

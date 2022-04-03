@@ -27,7 +27,7 @@ public class PuzzleMask : MonoBehaviour
     {
         value = _value;
 
-        if (value == 1)
+        if (value >= .88f)
             GameManager.Instance.EndGame();
     }
 

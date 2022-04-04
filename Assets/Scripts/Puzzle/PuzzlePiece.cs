@@ -9,7 +9,7 @@ public class PuzzlePiece : MonoBehaviour
     private bool isGrabbed = false;
     private bool isSet = false;
     private PolygonCollider2D polygonCollider;
-
+    private Vector2 mouseOffset = Vector2.zero;
 
     private void Start()
     {
@@ -22,7 +22,7 @@ public class PuzzlePiece : MonoBehaviour
         if (!isGrabbed)
             return;
 
-        Vector3 _nextPosition = Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())) + new Vector3(0, 0, 20);
+        Vector3 _nextPosition = Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())) + new Vector3(mouseOffset.x, mouseOffset.y, 20);
 
         if (_nextPosition.x < (Player.Instance.PlayerLimits.min.x / 2) + (Player.Instance.PlayerLimits.center.x / 2) || _nextPosition.x > (Player.Instance.PlayerLimits.max.x / 2) + (Player.Instance.PlayerLimits.center.x / 2))
             _nextPosition.x = transform.position.x;
@@ -60,6 +60,7 @@ public class PuzzlePiece : MonoBehaviour
 
         else
         {
+            mouseOffset = transform.position - Camera.main.ScreenToWorldPoint(new Vector2(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue())) ;
             GameManager.Instance.ChangeCursor(true);
             switch (PuzzleObject.Instance.CurrentMaterial)
             {
